@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-around gap-2 w-[1260px] h-[70px]">
-      <div>
+    <nav className="flex items-center px-16 mb-16 justify-between gap-2 w-full h-[70px]">
+      <div className="flex items-center">
         <h1 className="text-[1.2rem]">Waldston Santana</h1>
       </div>
       <div className="flex gap-16">
