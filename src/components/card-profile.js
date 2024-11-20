@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function CardProfiler() {
   return (
-    <div className=" flex overflow-hidden relative flex-col items-center pt-8   w-[344px] h-[640px] bg-white rounded-2xl">
+    <div className=" flex fixed overflow-hidden relative flex-col items-center pt-8   w-[344px] h-[640px] bg-white rounded-2xl">
       <div className="flex   flex-col items-center ">
         <Image
           src="/Ellipse1.png"
@@ -19,7 +19,7 @@ export default function CardProfiler() {
           src="/Ellipse1.png"
           width={200}
           height={200}
-          className="absolute flex cover -bottom-36 -right-20 "
+          className="absolute flex cover -bottom-36 -right-28 "
           alt="elipse "
         />
         <Image
