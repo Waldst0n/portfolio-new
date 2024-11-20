@@ -6,13 +6,13 @@ export default function Navbar() {
       <div className="flex gap-16">
         <Link
           className="font-bold transition-all  hover:text-blue-300 hover:scale-125"
-          href="#"
+          href="/"
         >
           Home
         </Link>
         <Link
           className="font-bold transition-all  hover:text-blue-300 hover:scale-125"
-          href="#"
+          href="/projects"
         >
           Projects
         </Link>
