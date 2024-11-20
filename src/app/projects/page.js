@@ -1,17 +1,48 @@
 import Navbar from '@/components/navbar';
+import ProjectCard from '@/components/project-card';
 
 export default function Projects() {
+  const projects = [
+    {
+      project1: {
+        title: 'Okanban',
+        description: 'Aplicação feita com React com base em um quadro Kanban.',
+        image: '/okanban.png',
+        link: 'https://o-kanban-waldst0ns-projects.vercel.app/',
+      },
+      project2: {
+        title: 'Gerenciador de tarefas',
+        description: 'Aplicação Fullstack criada com React e Express.',
+        image: '/tasks.png',
+        link: 'https://gerenciador-de-tarefas-front-flax.vercel.app/',
+      },
+    },
+  ];
+
   return (
     <>
-      <Navbar />
-      <main className=" flex items-center justify-center  px-16  max-w-[1140px]">
-        <div className="w-full">
-          <h1 className="text-[70px] text-center font-extrabold leading-none">
-            MEUS <span className="text-gray">PROJETOS</span>{' '}
-          </h1>
-        </div>
-        <div></div>
-      </main>
+      <div className="flex flex-col items-center">
+        <Navbar />
+        <main className=" flex flex-col items-center justify-center  px-16  max-w-[1140px]">
+          <div className="w-full">
+            <h1 className="text-[70px] text-center font-extrabold leading-none">
+              MEUS <span className="text-gray">PROJETOS</span>{' '}
+            </h1>
+            <ProjectCard
+              title={projects[0].project1.title}
+              description={projects[0].project1.description}
+              image={projects[0].project1.image}
+              link={projects[0].project1.link}
+            />
+            <ProjectCard
+              title={projects[0].project2.title}
+              description={projects[0].project2.description}
+              image={projects[0].project2.image}
+              link={projects[0].project2.link}
+            />
+          </div>
+        </main>
+      </div>
     </>
   );
 }
