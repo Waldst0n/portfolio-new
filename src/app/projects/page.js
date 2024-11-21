@@ -21,9 +21,9 @@ export default function Projects() {
 
   return (
     <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col  items-center">
         <Navbar />
-        <main className=" flex flex-col items-center justify-center  px-16  max-w-[1140px]">
+        <main className=" flex flex-col animate-fadeIn items-center justify-center  px-16  max-w-[1140px]">
           <div className="w-full">
             <h1 className="text-[70px] text-center font-extrabold leading-none">
               MEUS <span className="text-gray">PROJETOS</span>{' '}

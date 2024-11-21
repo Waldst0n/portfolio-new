@@ -12,7 +12,7 @@ export default function ProjectCard({ image, title, description, link }) {
               <p>{description}</p>
             </div>
             <Link
-              className=" flex items-center justify-center rounded-md hover:bg-white w-32 transition-all hover:text-blue-500"
+              className=" flex items-center justify-center rounded-md bg-white text-gray w-32 transition-all hover:text-blue-500"
               href={link}
               target="_blank"
             >
