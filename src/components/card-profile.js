@@ -38,7 +38,7 @@ export default function CardProfiler() {
         </p>
         <div className="flex gap-8">
           <Link
-            href="https://www.instagram.com/waldstonsantana/"
+            href="https://api.whatsapp.com/send/?phone=%2B5579988232693&text=Ol%C3%A1%21+Tudo+bem%3F&type=phone_number&app_absent=0"
             className="text-blue-300 text-3xl transition-all hover:text-blue-600"
             target="_blank"
           >
