@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { FaInstagram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function CardProfiler() {
   return (
@@ -19,7 +20,7 @@ export default function CardProfiler() {
           src="/Ellipse1.png"
           width={200}
           height={200}
-          className="absolute flex cover -bottom-36 -right-28 "
+          className="absolute flex cover -bottom-40 -right-32 "
           alt="elipse "
         />
         <Image
@@ -36,6 +37,13 @@ export default function CardProfiler() {
           Desenvolvedor Fullstack apaixonado por inovação e tecnologia.{' '}
         </p>
         <div className="flex gap-8">
+          <Link
+            href="https://www.instagram.com/waldstonsantana/"
+            className="text-blue-300 text-3xl transition-all hover:text-blue-600"
+            target="_blank"
+          >
+            <FaWhatsapp />
+          </Link>
           <Link
             href="https://www.instagram.com/waldstonsantana/"
             className="text-blue-300 text-3xl transition-all hover:text-blue-600"
