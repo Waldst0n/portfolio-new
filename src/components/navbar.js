@@ -18,7 +18,8 @@ export default function Navbar() {
         </Link>
         <Link
           className="font-bold transition-all  hover:text-blue-300 hover:scale-125"
-          href="#"
+          href="https://drive.google.com/drive/folders/1rAkb50Fl5UjSzXMZr16nBaGYeSMjDMCz?hl=pt-br"
+          target="_blank"
         >
           Currículo
         </Link>
