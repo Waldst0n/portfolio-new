@@ -17,6 +17,17 @@ module.exports = {
         fadeIn: 'fadeIn 1s ease-in-out forwards',
       },
 
+      screens: {
+        tablet: '640px',
+        // => @media (min-width: 640px) { ... }
+
+        laptop: '1024px',
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: '1280px',
+        // => @media (min-width: 1280px) { ... }
+      },
+
       colors: {
         black: '#151412',
         white: '#FDFDFD',

@@ -6,9 +6,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <div className="flex m-auto   max-w-[1140px] flex-col  mb-16 justify-center items-center">
+      <div className="flex flex-col items-center justify-center mx-auto max-w-[1140px] p-4 md:p-6 lg:p-8 mb-16">
         <Navbar />
-        <div className="flex p-2 animate-fadeIn">
+        <div className="w-full  animate-fadeIn">
           <MainContainer />
         </div>
       </div>
