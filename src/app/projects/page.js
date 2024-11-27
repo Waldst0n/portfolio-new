@@ -16,6 +16,13 @@ export default function Projects() {
         image: '/tasks.png',
         link: 'https://gerenciador-de-tarefas-front-flax.vercel.app/',
       },
+      project3: {
+        title: 'Formulário Multistep',
+        description:
+          'Aplicação criada com React e TypeScript de um formulário de passos com persistência de dados.',
+        image: '/form.png',
+        link: 'https://form-multistep-psi.vercel.app/',
+      },
     },
   ];
 
@@ -39,6 +46,12 @@ export default function Projects() {
               description={projects[0].project2.description}
               image={projects[0].project2.image}
               link={projects[0].project2.link}
+            />
+            <ProjectCard
+              title={projects[0].project3.title}
+              description={projects[0].project3.description}
+              image={projects[0].project3.image}
+              link={projects[0].project3.link}
             />
           </div>
         </main>
