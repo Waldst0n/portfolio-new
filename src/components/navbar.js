@@ -8,17 +8,17 @@ export default function Navbar() {
           className="font-bold transition-all  hover:text-blue-300 hover:scale-125"
           href="/"
         >
-          Home
+          Início
         </Link>
         <Link
           className="font-bold transition-all  hover:text-blue-300 hover:scale-125"
           href="/projects"
         >
-          Projects
+          Projetos
         </Link>
         <Link
           className="font-bold transition-all  hover:text-blue-300 hover:scale-125"
-          href="https://drive.google.com/drive/folders/1rAkb50Fl5UjSzXMZr16nBaGYeSMjDMCz?hl=pt-br"
+          href="https://drive.google.com/file/d/12JaTHGQEhzzewOr56MBFiTZuBjbMxB63/view?usp=sharing"
           target="_blank"
         >
           Currículo
